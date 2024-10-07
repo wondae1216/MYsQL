@@ -14,3 +14,8 @@
 주요기능 
 
 전체조회 , 추가 , 수정 , 삭제 가 있다.
+
+![image](https://github.com/user-attachments/assets/7fe17e98-4df9-4ebf-9740-b21b21bcabb7)
+
+
+![image](https://github.com/user-attachments/assets/d93a26cc-0266-4ba4-b452-67a74fccafa7)
