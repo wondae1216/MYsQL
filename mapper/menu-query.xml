@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment/>
+    <entry key="Glt_Menu">
+        INSERT GELATOTYPES
+        (
+        GLT_CODE
+        , GLT_NAME
+        , GLT_PRICE
+        , PRODUCT_NUMBER
+        , ORDERABLE_STATUS
+        )
+        VALUES
+        (
+        ?
+        , ?
+        , ?
+        , ?
+        , ?
+        )
+    </entry>
+
+    <entry key="Glt_updateMenu">
+        UPDATE gelatotypes
+           SET GLT_CODE = ?
+             , GLT_NAME = ?
+             , GLT_PRICE = ?
+         WHERE GLT_CODE = ?
+    </entry>
+
+    <entry key="deleteMenu">
+        DELETE
+        FROM GELATOTYPES
+        WHERE GLT_CODE = ?
+    </entry>
+
+    <entry key="All">
+        SELECT * FROM gelatotypes;
+    </entry>
+
+</properties>
